@@ -1,5 +1,4 @@
 {
-  "name": "isg-29994",
   "private": true,
   "scripts": {
     "dev": "next dev",
