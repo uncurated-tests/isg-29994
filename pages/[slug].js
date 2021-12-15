@@ -9,7 +9,7 @@ export async function getStaticProps({ params }) {
   const date = new Date().toISOString().split('T')[1];
   return {
     props: { slug, date },
-    revalidate: 5,
+    revalidate: 2,
   };
 }
 
